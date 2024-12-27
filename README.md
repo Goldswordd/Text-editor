@@ -7,3 +7,5 @@ cmake ..
 make
 ./Ttext
 ```
+# Demo Result
+[Demo.png]
