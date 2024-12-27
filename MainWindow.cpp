@@ -9,14 +9,14 @@ MainWindow::MainWindow() {
     // Central Widget: QTextEdit
     textEditor = new QTextEdit(this);
     setCentralWidget(textEditor);
-    zoomLevel = 0;  // Khởi tạo mức thu phóng mặc định
-        // Làm cho cửa sổ trong suốt
+    zoomLevel = 0;  // Zoom level 
+    // Make transparent windows
     setAttribute(Qt::WA_TranslucentBackground);
     // Central Widget: QTextEdit
     textEditor = new QTextEdit(this);
     setCentralWidget(textEditor);
 
-    // Thiết lập nền bán trong suốt cho vùng soạn thảo
+    // Setup semi transparent background with blur  
     textEditor->setStyleSheet("background: rgba(20, 20, 20, 0.4); color: cyan; font-size: 16px;");
     // Menu Bar
     QMenuBar *menuBar = this->menuBar();
