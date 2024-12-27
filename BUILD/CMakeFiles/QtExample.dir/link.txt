@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/QtExample.dir/main.cpp.o CMakeFiles/QtExample.dir/MainWindow.cpp.o CMakeFiles/QtExample.dir/moc_MainWindow.cpp.o -o QtExample  /usr/lib/libQt5Widgets.so.5.15.15 /usr/lib/libQt5Gui.so.5.15.15 /usr/lib/libQt5Core.so.5.15.15

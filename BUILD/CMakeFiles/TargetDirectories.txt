@@ -1,3 +1,0 @@
-/home/ponp/Documents/cpp/QT/BUILD/CMakeFiles/QtExample.dir
-/home/ponp/Documents/cpp/QT/BUILD/CMakeFiles/edit_cache.dir
-/home/ponp/Documents/cpp/QT/BUILD/CMakeFiles/rebuild_cache.dir
