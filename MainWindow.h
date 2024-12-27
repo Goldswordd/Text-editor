@@ -20,13 +20,13 @@ private slots:
     void onOpenFile();
     void onSaveFile();
     void onAbout();
-    void onChangeTextColor();  // Thêm slot để thay đổi màu chữ
-    void onZoomIn();           // Thu phóng vào
-    void onZoomOut();          // Thu phóng ra
+    void onChangeTextColor();  
+    void onZoomIn();           
+    void onZoomOut();          
 
 private:
-    QTextEdit *textEditor; // Central widget
-    int zoomLevel;         // Biến lưu mức thu phóng hiện tại
+    QTextEdit *textEditor; 
+    int zoomLevel;         
 };
 
 #endif // MAINWINDOW_H
