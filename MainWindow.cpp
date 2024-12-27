@@ -17,7 +17,7 @@ MainWindow::MainWindow() {
     setCentralWidget(textEditor);
 
     // Setup semi transparent background with blur  
-    textEditor->setStyleSheet("background: rgba(20, 20, 20, 0.4); color: cyan; font-size: 16px;");
+    textEditor->setStyleSheet("background: rgba(20, 20, 20, 0.4); color: cyan;");
     // Menu Bar
     QMenuBar *menuBar = this->menuBar();
 
@@ -110,20 +110,20 @@ void MainWindow::onChangeTextColor() {
         statusBar()->showMessage("Text color changed", 2000);
     }
 }
-
+//font size Zoom in
 void MainWindow::onZoomIn() {
     QFont font = textEditor->font();
     int currentSize = font.pointSize();
-    font.setPointSize(currentSize + 2);  // Tăng kích thước font
+    font.setPointSize(currentSize + 2);  
     textEditor->setFont(font);
     zoomLevel++;
     statusBar()->showMessage("Zoom In", 2000);
 }
-
+//font size Zoom out
 void MainWindow::onZoomOut() {
     QFont font = textEditor->font();
     int currentSize = font.pointSize();
-    font.setPointSize(currentSize - 2);  // Giảm kích thước font
+    font.setPointSize(currentSize - 2);  
     textEditor->setFont(font);
     zoomLevel--;
     statusBar()->showMessage("Zoom Out", 2000);
