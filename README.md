@@ -1,7 +1,7 @@
 # Basic setup
 Build the project with Cmake and run application
 ```bash
-mkdir build //create new folder to keep source
+mkdir build 
 cd build
 cmake ..
 make
