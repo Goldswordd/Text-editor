@@ -8,5 +8,5 @@ make
 ./Ttext
 ```
 # Demo Result
-![](Demo.png)
+![](Demo1.png)
 this is the result running in my Plasma Desktop Environment 
